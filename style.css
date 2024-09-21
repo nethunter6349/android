@@ -1,1 +1,51 @@
-
+.flower{
+  position:relative;
+}
+.flower_glass{
+  width:20vmin;
+  height:30vmin;
+  background-image:var(--color-glass);
+  clip-path:polygon(0 0,100% 0,85% 100%,15% 100%);
+  opacity: .8;
+  position:relative;
+}
+.flower_glass::after{
+  content:**;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color: #182843;
+  width:100%;
+  height:2vmin;
+}
+.flower_glas::before{
+  content:**;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-image:var(--color-water);
+  width:100%;
+  heigth:15vmin;
+}
+.f-wrapper{
+  position:absolute;
+  left:45%;
+  botton:2vmin;
+}
+.f-wrapper--2{
+  left:50%;
+  bottom:5%;
+  transform-origin:10% left;
+  transform:rotate(20deg);
+}
+.f-wrapper--3{
+  left:30%;
+  botton:5%;
+  transform-origin:10% left;
+  transform:rotate(-10deg);
+}
+.f-warpper--3 .flower_line{
+  height:45vmin;
+  position:relative;
+}
+  
